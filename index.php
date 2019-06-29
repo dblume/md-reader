@@ -7,9 +7,9 @@
         <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
         <style>
             * { margin: 0; }
-            html, body { height: 100%; margin: 0, 0, 0, 10px; padding: 0; background: #ccc; color: black}
+            html, body { height: 100%; margin: 0, 0, 0, 10px; padding: 0; background: #ccc; color: black }
             .wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -1.6em; }
-            #content{
+            #content {
                 font-family: BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
                 line-height: 1.4; background-color: #fff; color: black; font-size: 16px;
                 text-align: left; padding: 5px 40px 30px 40px; max-width: 800px; margin: 0 auto; }
@@ -34,14 +34,19 @@
                 font-family: HelveticaNeue-Bold, "Helvetica Neue", Arial, sans-serif;
                 font-weight: bold; text-align: center; line-height: 1.2em; color: #606060;
                 font-size: 8pt; width: 98% }
+            @media (prefers-color-scheme: dark) {
+              html, body { background-color: #333; color: #EEE; }
+              #content { background-color: #222; color: #CCC; }
+              code, pre, tt { background-color: #444; }
+              hr { background-color: darkgrey; }
+              table th { background-color: #555; }
+            }
             div.push, div.footer { height: 1.6em; }
         </style>
     </head>
     <body>
      <div class="wrapper">
       <div id="content">
-
-
 <?
 require 'Parsedown.php';
 $Parsedown = new Parsedown();
