@@ -40,6 +40,8 @@
               code, pre, tt { background-color: #444; }
               hr { background-color: darkgrey; }
               table th { background-color: #555; }
+              a:visited { color:#E4E; }
+              a:link { color:#88F; }
             }
             div.push, div.footer { height: 1.6em; }
         </style>
