@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/license-MIT_license-blue.svg)](https://raw.githubusercontent.com/dblume/md-reader/master/LICENSE.txt)
+[![License](https://img.shields.io/badge/license-MIT_license-blue.svg)](https://raw.githubusercontent.com/dblume/md-reader/main/LICENSE.txt)
 ![PHP5.3](https://img.shields.io/badge/php-%3E=5.3-blue.svg)
 
 ## Render Markdown in a Browser from the Command-line
